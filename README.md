@@ -1,14 +1,10 @@
-#简介
 
-> 使用vue-cli3、webpack4、elementui构建的简单系统管理页面  
-> 可配合后台项目https://github.com/MissThee/springboot-mybatisplus-security-jwt-restful使用，是其项目中已包含的页面的源码
-##项目结构
 ```
 src
 │  App.vue
 │  main.js
 │
-├─api    //axios请求方法
+├─api    
 │      data-dictionary-api.js
 │      home-api.js
 │      letter-clue-api.js
@@ -19,7 +15,7 @@ src
 │      unit-api.js
 │      user-api.js
 │
-├─assets    //资源目录
+├─assets    
 │  │  logo.png
 │  │
 │  ├─css
